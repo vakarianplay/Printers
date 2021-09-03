@@ -13,7 +13,7 @@ def upd():
 upd()
 
 def upd_time():
-    current_time = time.strftime("%H : %M : %S")
+    current_time = time.strftime("%H : %M")
     return current_time
 upd_time()
 
