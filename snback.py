@@ -13,7 +13,7 @@ def upd():
 upd()
 
 def upd_time():
-    current_time = time.strftime("%H : %M")
+    current_time = time.strftime("Последнее обновление: %H : %M")
     return current_time
 upd_time()
 
@@ -34,7 +34,7 @@ def xerox():
         per_ent_xerox = (ent_xerox * 100 // 30000)
         return per_ent_xerox
     except:
-        per_ent_xerox = "🗙"
+        per_ent_xerox = ""
         return per_ent_xerox
 xerox()
 
@@ -53,7 +53,7 @@ def hp_buh():
         ent_hp_buh = re.findall("\d+", ent_hp_buh)[0]
         return ent_hp_buh
     except:
-        ent_hp_buh = "🗙"
+        ent_hp_buh = ""
         return ent_hp_buh
 hp_buh()
 
@@ -72,7 +72,7 @@ def hp_secr_black():
         ent_hp_secr_black = re.findall("\d+", ent_hp_secr_black)[0]
         return ent_hp_secr_black
     except:
-        ent_hp_secr_black = "🗙"
+        ent_hp_secr_black = ""
         return ent_hp_secr_black
 hp_secr_black()
 
@@ -147,7 +147,7 @@ def kyocera_max():
         per_ent_kyocera_max = (ent_kyocera_max * 100 // 7200)
         return per_ent_kyocera_max
     except:
-        per_ent_kyocera_max = "🗙"
+        per_ent_kyocera_max = ""
         return per_ent_kyocera_max
 kyocera_max()
 
@@ -166,7 +166,7 @@ def hp_darin():
         ent_hp_darin = re.findall("\d+", ent_hp_darin)[0]
         return ent_hp_darin
     except:
-        ent_hp_darin = "🗙"
+        ent_hp_darin = ""
         return ent_hp_darin
 hp_darin()
 
@@ -187,7 +187,7 @@ def kyocera_black():
         per_ent_kyocera_black = (ent_kyocera_black * 100 // 1200)
         return per_ent_kyocera_black
     except:
-        per_ent_kyocera_black = "🗙"
+        per_ent_kyocera_black = ""
         return per_ent_kyocera_black
 kyocera_black()
 
@@ -266,13 +266,13 @@ def hp_svc():
         ent_hp_svc = re.findall("\d+", ent_hp_svc)[0]
         return ent_hp_svc
     except:
-        ent_hp_svc = "🗙"
+        ent_hp_svc = ""
         return ent_hp_svc
 hp_svc()
 
 def hp_director_black():
     try:
-        ip_hp_director_black = '192.168.10.164'
+        ip_hp_director_black = '192.168.10.172'
         community = 'public'
         value = (1,3,6,1,2,1,43,11,1,1,9,1,1)
         generator = cmdgen.CommandGenerator()
@@ -285,13 +285,13 @@ def hp_director_black():
         ent_hp_director_black = re.findall("\d+", ent_hp_director_black)[0]
         return ent_hp_director_black
     except:
-        ent_hp_director_black = "🗙"
+        ent_hp_director_black = ""
         return ent_hp_director_black
 hp_director_black()
 
 def hp_director_cyan():
     try:
-        ip_hp_director_cyan = '192.168.10.164'
+        ip_hp_director_cyan = '192.168.10.172'
         community = 'public'
         value = (1,3,6,1,2,1,43,11,1,1,9,1,2)
         generator = cmdgen.CommandGenerator()
@@ -309,7 +309,7 @@ hp_director_cyan()
 
 def hp_director_mageneta():
     try:
-        ip_hp_director_mageneta = '192.168.10.164'
+        ip_hp_director_mageneta = '192.168.10.172'
         community = 'public'
         value = (1,3,6,1,2,1,43,11,1,1,9,1,3)
         generator = cmdgen.CommandGenerator()
@@ -327,7 +327,7 @@ hp_director_mageneta()
 
 def hp_director_yellow():
     try:
-        ip_hp_director_yellow = '192.168.10.164'
+        ip_hp_director_yellow = '192.168.10.172'
         community = 'public'
         value = (1,3,6,1,2,1,43,11,1,1,9,1,4)
         generator = cmdgen.CommandGenerator()
@@ -360,6 +360,6 @@ def brother():
         per_ent_brother = (ent_brother * 100 // 12000)
         return per_ent_brother
     except:
-        per_ent_brother = "🗙"
+        per_ent_brother = ""
         return per_ent_brother
 brother()
