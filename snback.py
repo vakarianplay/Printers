@@ -6,6 +6,7 @@ from pysnmp.entity.rfc3413.oneliner import cmdgen
 from pysnmp.proto.rfc1902 import Integer, IpAddress, OctetString
 import re
 import time
+from threading import Thread
 
 def upd():
     upd = open("set", "r").read().splitlines()[0]
@@ -363,3 +364,48 @@ def brother():
         per_ent_brother = ""
         return per_ent_brother
 brother()
+
+th_xerox = Thread(target=xerox, args=())
+th_xerox.start()
+
+th_hp_buh = Thread(target=hp_buh, args=())
+th_hp_buh.start()
+
+th_hp_secr_black = Thread(target=hp_secr_black, args=())
+th_hp_secr_black.start()
+th_hp_secr_cyan = Thread(target=hp_secr_cyan, args=())
+th_hp_secr_cyan.start()
+th_hp_secr_mageneta = Thread(target=hp_secr_mageneta, args=())
+th_hp_secr_mageneta.start()
+th_hp_secr_yellow = Thread(target=hp_secr_yellow, args=())
+th_hp_secr_yellow.start()
+
+th_kyocera_max = Thread(target=kyocera_max, args=())
+th_kyocera_max.start()
+
+th_hp_darin = Thread(target=hp_darin, args=())
+th_hp_darin.start()
+
+th_kyocera_black = Thread(target=kyocera_black, args=())
+th_kyocera_black.start()
+th_kyocera_mageneta = Thread(target=kyocera_mageneta, args=())
+th_kyocera_mageneta.start()
+th_kyocera_cyan = Thread(target=kyocera_cyan, args=())
+th_kyocera_cyan.start()
+th_kyocera_yellow = Thread(target=kyocera_yellow, args=())
+th_kyocera_yellow.start()
+
+th_hp_svc = Thread(target=hp_svc, args=())
+th_hp_svc.start()
+
+th_hp_director_black = Thread(target=hp_director_black, args=())
+th_hp_director_black.start()
+th_hp_director_cyan = Thread(target=hp_director_cyan, args=())
+th_hp_director_cyan.start()
+th_hp_director_mageneta = Thread(target=hp_director_mageneta, args=())
+th_hp_director_mageneta.start()
+th_hp_director_yellow = Thread(target=hp_director_yellow, args=())
+th_hp_director_yellow.start()
+
+th_brother = Thread(target=brother, args=())
+th_brother.start()
