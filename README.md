@@ -1,18 +1,18 @@
->![](https://img.shields.io/badge/version-python%203.7-blue)
->![](https://img.shields.io/badge/pip%20install-pysnmp-blue)
->![](https://img.shields.io/badge/pip%20install-struct-blue)
->![](https://img.shields.io/badge/pip%20install-Tkinter-blue)
+![](https://img.shields.io/badge/version-python%203.7-blue)
+![](https://img.shields.io/badge/pip%20install-pysnmp-blue)
+![](https://img.shields.io/badge/pip%20install-struct-blue)
+![](https://img.shields.io/badge/pip%20install-Tkinter-blue)
 
 # SNMP printer status
 
 Checking the remaining toner level in printers. Works under the SNMP protocol. The data is displayed in tabular form in a graphical interface via Tkinter.
 
 -------------------
->![](https://img.shields.io/badge/compatible-HP%20LaserJet-success)
->![](https://img.shields.io/badge/compatible-HP%20DesktopJet-success)
->![](https://img.shields.io/badge/compatible-Kyocera-success)
->![](https://img.shields.io/badge/compatible-Brother-success)
->![](https://img.shields.io/badge/compatible-Xerox-success)
+![](https://img.shields.io/badge/compatible-HP%20LaserJet-success)
+![](https://img.shields.io/badge/compatible-HP%20DesktopJet-success)
+![](https://img.shields.io/badge/compatible-Kyocera-success)
+![](https://img.shields.io/badge/compatible-Brother-success)
+![](https://img.shields.io/badge/compatible-Xerox-success)
 
 ## Oid code for toner level.
 
